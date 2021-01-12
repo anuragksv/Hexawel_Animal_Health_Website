@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(10, 10, 10, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 #intro .carousel-container {
@@ -659,11 +659,17 @@ section {
   color: #ff8000;
 }
 
-#featured-services p {
+#featured-services p ul li{
   font-size: 14px;
   line-height: 24px;
   color: #fff;
   margin-bottom: 0;
+}
+
+.iconify{
+  color: #ff8000;
+  width: 5em;
+  height: 5em;
 }
 
 /* About Us Section
@@ -799,7 +805,7 @@ section {
   color: #ff8000;
 }
 
-#services .description {
+#services .description{
   font-size: 14px;
   margin-left: 60px;
   line-height: 24px;
@@ -1532,7 +1538,7 @@ section {
   color: #eee;
 }
 
-#footer .footer-top .social-links a {
+#footer .footer-top .footer-contact a {
   font-size: 18px;
   display: inline-block;
   background: #333;
@@ -1547,7 +1553,7 @@ section {
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+#footer .footer-top .footer-contact a:hover {
   background: #ff8000;
   color: #fff;
 }
